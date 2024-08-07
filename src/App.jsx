@@ -22,8 +22,8 @@ export const App = () => {
         <Section
           id="mision"
           title="Nuestra Misión"
-          bgColor="dark:bg-gray-900"
-          textColor="dark:text-white"
+          bgColor="bg-gray-900"
+          textColor="text-white"
           image={mision}
           alt="Hero Image"
         >
@@ -126,8 +126,8 @@ export const App = () => {
         <Section
           id="hero"
           title="Sobre Barranquilla"
-          bgColor="dark:bg-gray-900"
-          textColor="dark:text-white"
+          bgColor="bg-gray-900"
+          textColor="text-white"
           image={barranquilla}
           alt="Hero Image"
         >
@@ -142,7 +142,7 @@ export const App = () => {
         </Section>
 
 
-        <section id="experiencias" className="bg-gray-100 dark:bg-gray-900 dark:text-white py-20 md:py-32">
+        <section id="experiencias" className=" bg-gray-900 text-white py-20 md:py-32">
           <div className="container mx-auto px-4 md:px-10 space-y-10">
 
             <h2 className="text-3xl md:text-4xl font-bold text-center">

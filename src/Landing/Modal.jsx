@@ -61,6 +61,7 @@ export const Modal = ({ isOpen, onClose }) => {
                             id="name"
                             value={name}
                             onChange={(e) => setName(e.target.value)}
+                            style={{ borderColor: 'black' }}
                             className="w-full px-3 py-2 border border-gray-300 rounded-md text-black"
                         />
                     </div>
