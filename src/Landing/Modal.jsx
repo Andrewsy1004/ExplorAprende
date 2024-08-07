@@ -61,8 +61,7 @@ export const Modal = ({ isOpen, onClose }) => {
                             id="name"
                             value={name}
                             onChange={(e) => setName(e.target.value)}
-                            style={{ borderColor: 'black' }}
-                            className="w-full px-3 py-2 border border-gray-300 rounded-md text-black"
+                            className="w-full px-3 py-2 border border-gray-300 rounded-md text-black  focus:outline-none focus:border-black"
                         />
                     </div>
 
@@ -75,7 +74,7 @@ export const Modal = ({ isOpen, onClose }) => {
                             id="telefono"
                             value={telefono}
                             onChange={(e) => setPhone(e.target.value)}
-                            className="w-full px-3 py-2 border border-gray-300 rounded-md text-black"
+                            className="w-full px-3 py-2 border border-gray-300 rounded-md text-black  focus:outline-none focus:border-black"
                         />
                     </div>
 
@@ -88,7 +87,7 @@ export const Modal = ({ isOpen, onClose }) => {
                             id="email"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
-                            className="w-full px-3 py-2 border border-gray-300 rounded-md text-black"
+                            className="w-full px-3 py-2 border border-gray-300 rounded-md text-black  focus:outline-none focus:border-black"
                         />
                     </div>
 

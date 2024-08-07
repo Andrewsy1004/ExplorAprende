@@ -142,7 +142,7 @@ export const App = () => {
         </Section>
 
 
-        <section id="experiencias" className=" bg-gray-900 text-white py-20 md:py-32">
+        <section id="experiencias" className="bg-gray-100 dark:bg-gray-900 dark:text-white py-20 md:py-32">
           <div className="container mx-auto px-4 md:px-10 space-y-10">
 
             <h2 className="text-3xl md:text-4xl font-bold text-center">
@@ -150,7 +150,7 @@ export const App = () => {
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+              <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden">
                 <img
                   src={historico}
                   width={600}
@@ -158,7 +158,9 @@ export const App = () => {
                   alt="Experience 1"
                   className="w-full h-64 object-cover"
                 />
+                
                 <div className="p-6">
+
                   <h3 className="text-xl font-bold mb-2">
                     Tour histórico
                   </h3>
